@@ -1,0 +1,33 @@
+ 
+/* Code start here*/
+h1{
+    color: aqua;
+}
+
+/* Group:  color of blueviolet h1 and h2*/
+h1,h2{
+    color: blueviolet;
+}
+
+/* Child: color of firebrick on p */
+.box > #done{
+    color:firebrick;
+}
+
+
+/* Descendent color of blue on li*/
+.box li{
+    color: blue;
+}
+
+/* Chained  the done li to be
+  color seagreen*/
+li.done{
+    color: seagreen;
+}
+
+/* Multiple Combiners: make the p on ul with a class done font-size of 0.5rem*/
+
+p{
+    color: red;
+}
